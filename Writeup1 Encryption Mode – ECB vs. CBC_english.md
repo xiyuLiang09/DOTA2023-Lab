@@ -42,7 +42,7 @@ The steps for encrypting the image using ECB mode are similar to those for CBC, 
 
 Then, following the header modification process used in the CBC encryption, modify and save the image in the same way. The result can be seen in the image viewer as follows:
 
-![ecb_enc](D:\Desktop\kk\2023NUS暑期研习项目\DOTAfile\Lab_image\ecb_enc.png)
+![ecb_enc](https://github.com/kkzka-hoh/Lab-img/blob/main/ecb_enc.png)
 
 It is evident that we can infer most of the information contained in the original image from the encrypted image, such as the objects and shapes depicted in the image.
 
