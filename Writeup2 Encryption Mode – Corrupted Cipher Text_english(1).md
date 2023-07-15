@@ -52,6 +52,8 @@ openssl enc -d -aes-128-ofb -in ofb_enc.txt -out ofb_dec.txt -K 0011223344556677
 
 
 
+
+
 ## Answers to questions
 
 1. Contents of original file and decrypted files.
@@ -104,6 +106,8 @@ openssl enc -d -aes-128-ofb -in ofb_enc.txt -out ofb_dec.txt -K 0011223344556677
   Q4DvO5T4SNKvziIv VQtnXuG7rmspu{eu x9Njydp7DJlkryBp 5GHjDWuATdzxDXrb
   ```
 
+
+
 2. Causes
 
 * ECB mode
@@ -121,6 +125,8 @@ openssl enc -d -aes-128-ofb -in ofb_enc.txt -out ofb_dec.txt -K 0011223344556677
 * OFB mode
 
   In OFB mode, each ciphertext block is XORed with the random key stream generated from the IV and key to obtain the corresponding plaintext block, so only the corrupted byte will be affected, i.e. 1 byte cannot be recovered. Therefore, there are 63 bytes are recovered when the encryption mode is OFB.
+
+
 
 3. Implication of these differences
 
