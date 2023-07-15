@@ -28,7 +28,7 @@ Modify the first 56 bytes of the header information of the encrypted image accor
 
 After modifying and saving, we can now use the image viewer software that comes with Ubuntu to view the encrypted image. The image on the left in the following figure is the original image, and the image on the right is the encrypted image.
 
-![image-20230715172912232](D:\Desktop\kk\2023NUS暑期研习项目\DOTAfile\Lab_image\cbc_enc.png)
+![image-20230715172912232]([D:\Desktop\kk\2023NUS暑期研习项目\DOTAfile\Lab_image\cbc_enc.png](https://github.com/kkzka-hoh/Lab-img/blob/main/cbc_enc.png))
 
 As you can see, we cannot see any information about the original image from the encrypted image. In other words, without knowing the encryption key and initialization vector, an attacker cannot recover the image or obtain any information about the original image from the encrypted image.
 
