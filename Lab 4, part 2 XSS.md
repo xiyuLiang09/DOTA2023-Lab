@@ -16,7 +16,7 @@
 </script>
 ```
 
-~ Note: To prevent unnecessary web attacks, I did not include the <script> tag in my script.
+~:relaxed: Note: To prevent unnecessary web attacks, I did not include the <script> tag in my script.
 
 ------
 
