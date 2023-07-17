@@ -11,7 +11,7 @@
 
   > Entering `http://localhost ` in the web browser of the lab machine will display the following interface:
   >
-  > ![](D:\Desktop\kk\2023NUS暑期研习项目\DOTAfile\Lab_image\Lab4-3-1.jpg)
+  > ![](https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab4-3-1.jpg)
 
 * Yes, it is a recent version of the web server :sunglasses:
 * These are the top Web servers technologies based on market share in 2023. 
