@@ -28,3 +28,5 @@ In particular, my XSS script did the following:
 2. Used a regular expression to replace the `method` parameter in the URL with '1' and replace the `user` parameter with `comment=` followed by the encoded current URL, and saved the modified URL in a variable named `new_url`.
 3. Displayed an alert box to inform the user that they have been attacked.
 4. Used the`document.location.href` property to redirect the current page to the URL specified by `new_url`.
+
+AND → This is a non-persistent attack.
