@@ -13,7 +13,7 @@
   >
   > ![](https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab4-3-1.jpg)
 
-* Yes, it is a recent version of the web server :sunglasses:
+* Yes, it is a recent version of the web server.
 * These are the top Web servers technologies based on market share in 2023. 
   * **Nginx** 39.8% 
   * **Apache HTTP Server** 35.2%
