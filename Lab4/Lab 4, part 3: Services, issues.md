@@ -13,7 +13,12 @@
   >
   > ![](https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab4-3-1.jpg)
 
-* Yes, it is a recent version of the web server :sunglasses:
+* No, it isn't a recent version of the web server.
+
+  >Open the terminal and input `apachectl -v`
+  >We can see that the current version of the web server on this machine is:``
+  >However, Apache 3 has been released.
+  
 * These are the top Web servers technologies based on market share in 2023. 
   * **Nginx** 39.8% 
   * **Apache HTTP Server** 35.2%
