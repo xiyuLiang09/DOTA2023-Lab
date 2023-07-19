@@ -16,7 +16,7 @@
 * No, it isn't a recent version of the web server.
 
   > Open the terminal and input `apachectl -v`.
-  > We can see that the current version of the web server on this machine is:``.
+  > We can see that the current version of the web server on this machine is:`Apache/2.4.41 (Ubuntu)`.
   > However, Apache 3 has been released.
   
 * These are the top Web servers technologies based on market share in 2023. 
