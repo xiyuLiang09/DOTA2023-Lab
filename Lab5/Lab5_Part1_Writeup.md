@@ -26,15 +26,15 @@ openssl req -x509 -new -nodes -key testCA.key -sha256 -days 365 -out testCA.crt 
 
 * `testCA.key`is a 2048-bit RSA private key file used for the CA to sign a self-signed root certificate to prove the authenticity and reliability of the certificate.
 
-<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/testCAkey.png" style="zoom: 67%;" />
+<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/testCAkey.png" style="zoom: 0.67;" />
 
 * `testCA.crt`is a self-signed X.509 certificate file. Generally, a certificate consists of public key information and additional information such as the entity it belongs to, and the encryption/decryption algorithm used, which is used to verify the authenticity of the server's identity. Root certificates are typically pre-installed in operating systems or browsers and are used to verify the authenticity of other certificates. A detailed explanation of the specific information in this file can be found in the answer to the first question in Part 1.
 
-<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/testCAcrt.png" style="zoom: 50%;" />
+<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/testCAcrt.png" style="zoom: 0.5;" />
 
 * `localhost.cnf`：is an OpenSSL configuration file used to specify the properties and extensions of the root certificate. Here, this file specifies the DN (Distinguished Name) information of the certificate holder, including the country, province, city, organization, and common name, as well as the certificate key, digest algorithm, and certificate extensions properties.
 
-<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/localhostcnf.png" style="zoom:50%;" />
+<img src="https://github.com/kkzka-hoh/DOTA2023-Lab/blob/main/Lab5/localhostcnf.png" style="zoom:0.5;" />
 
 ```bash
 openssl genrsa -out localhost.key 2048
